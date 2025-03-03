@@ -1,0 +1,96 @@
+/* Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee7c2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Content Styling */
+.container {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+ul li:hover {
+    color: #000;
+    font-weight: bold;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #777;
+}
